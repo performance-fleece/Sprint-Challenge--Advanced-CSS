@@ -1,1 +1,19 @@
 // Mixins Here
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.signup(@c, @bg) {
+     color: @c;
+          background-color: @bg;
+          border: none;
+          font-size: 1.8rem;
+          padding: .7rem 1.8rem;
+          border-radius: 5px;
+          &:hover {
+            background-color: @c;
+            color: @bg;
+          }
+}
