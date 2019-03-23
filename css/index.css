@@ -180,6 +180,9 @@ p {
   background-color: #F6F6F6;
   border-bottom: 1px solid #F1F1F1;
   margin: 0 0;
+  position: fixed;
+  opacity: 0.95;
+  width: 100%;
 }
 .navigation h1 {
   text-align: center;
@@ -205,6 +208,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  padding-top: 96px;
 }
 .home .intro .space {
   width: 100%;
