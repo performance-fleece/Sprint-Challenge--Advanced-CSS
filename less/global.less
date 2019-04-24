@@ -30,9 +30,20 @@ p {
   line-height: 1.4;
 }
 
+.navigation {
+  @media @mobile {
+    max-width: 500px;
+  }
+}
+
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;  
+  @media @mobile {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 0;
+  }
 }
 
